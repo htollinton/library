@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    grid-template-columns: 30% 90%;
+    grid-template-rows: 20vw auto;
+}
+
+#shelf{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.book{
+    border-style: solid;
+    padding: 1em;
+    margin:1px;
+    color: blue;
+    border-radius: 20%;
+
+}
+form{
+    display: none;
+}
